@@ -10,7 +10,7 @@ void main() async {
 
   teledart.onCommand('start').listen((event) {
     event.reply(
-        "Available commands: \n/biology\n/chemistry\n/ict\n/physics\n/worldHistory\n/tarih\n/geography");
+        "Available commands: \n/biology\n/chemistry\n/ict\n/physics\n/worldHistory\n/tarih\n/geography\n/info");
   });
 
   teledart.onCommand('info').listen((event) {
